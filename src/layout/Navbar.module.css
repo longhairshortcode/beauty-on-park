@@ -1,0 +1,51 @@
+.componentContainer{
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    /* color: lightcoral; */
+    /* border: 2px red dotted; */
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+}
+
+.navbarContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: var(--max-width);
+    /* padding: var(--padding); */
+    height: 14rem;
+    gap: 1rem;
+    background-color:  rgb(203, 200, 200);
+    /* border: 2px black solid; */
+}
+
+.linksMiddleContainer{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.linksMiddleContainer > a {
+    font-size: 1.6rem;
+    color: black;
+}
+
+.orderButtonRightContainer > a {
+    color: white;
+    background-color: rgb(39, 32, 32);
+    padding: 2rem 2.5rem;
+}
+
+/* Why below class doesn't work? */
+/* .bookButton{
+    color: red;
+} */
+
+.arrow{
+    font-size: 1.5rem;
+    vertical-align: middle;
+    margin-left: .5rem;
+}

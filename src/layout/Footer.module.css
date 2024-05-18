@@ -1,0 +1,79 @@
+.componentContainer{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid grey;
+    height: 360px;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.leftTitleDescriptionSocialsContainer, .middleTreatmentsContainer, .rightHoursContainer{
+    width: 33.3%;
+    margin-top: 3rem;
+    /* border-right: 3px solid purple; */
+    margin-bottom: 10rem
+} 
+
+
+.logoImage{
+    /* border: 2px solid green; */
+    width: 30%;
+    height: 30%;
+}
+
+.descriptionBelowLogo{
+    /* border: 2px red solid; */
+    width: 85%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 1.5rem;
+    /* margin-bottom: 2rem; */
+}
+
+.socialsParagraph{
+    display: flex;
+    justify-content:space-between;
+    /* border: 2px red solid; */
+    width: 40%;
+}
+
+.socialsParagraph > span {
+    font-size: 2.75rem;
+}
+
+.middleTreatmentsContainer, .rightHoursContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+
+.leftTitleDescriptionSocialsContainer, .middleTreatmentsContainer{
+    border-right: grey solid 1px;
+}
+
+.treatmentTitle, .hoursTitle{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    /* border: 2px solid hotpink; */
+    /* margin-left: 100px; */
+    /* padding-left: ; */
+}
+
+.center{
+    width: fit-content;
+
+}
+
+.center > ul > li{
+    font-size: 1.2rem;
+}
+
+
+.treatmentListContainer, .hoursListContainer {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px blue solid; */
+    gap: 2rem;
+    margin-top: 1rem;
+}

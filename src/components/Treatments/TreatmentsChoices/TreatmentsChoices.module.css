@@ -1,0 +1,64 @@
+.componentContainer{
+}
+
+
+.treatmentSingleContainer{
+    display: flex;
+    margin: 0 auto;
+    /* gap: 1rem; */
+    /* padding: var(--padding); */
+    max-width: var(--max-width);
+    /* border: 2px orange solid; */
+    height: 450px;
+}
+
+
+.treatementPicLeft{
+    /* border: 2px purple solid; */
+    width: 50%;
+    /* border-radius: 1rem; */
+    background-color: rgb(185, 134, 112);
+    padding-top: 5rem;
+    
+}
+
+.treatmentInfoRightContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* border: 2px black solid; */
+    width: 50%;
+    background-color: rgb(185, 134, 112);
+    padding: 0 2.5rem;
+   
+}
+
+.treatmentName{
+    margin-top: 6rem;
+    /* border-bottom: 2px solid; */
+}
+
+.treatmentTime, .treatmentPrice{
+    font-weight: bold;
+}
+
+.treatmentDescription{
+    margin-bottom: 4rem;
+    /* border: 2px solid red; */
+}
+
+
+.bookButton {
+    color: white;
+    background-color: rgb(39, 32, 32);
+    padding: 2rem 2.5rem;
+}
+
+
+.arrow{
+    font-size: 1.5rem;
+    vertical-align: middle;
+    margin-left: .5rem;
+}
+
+

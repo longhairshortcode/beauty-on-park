@@ -1,0 +1,29 @@
+.componentContainer{
+    /* display: flex;
+    justify-content: end; */
+    /* align-items: end; */
+    /* height: 500px; */
+    max-width: var(--max-width);
+    width: 100%;
+    /* height: calc(100vh - 14rem); */
+    /* border: 2px solid red; */
+}
+
+/* .googleMapContainer{
+    height: 500px;
+    max-width: var(--max-width);
+    width: 100%;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+   
+} */
+
+.googleMap{
+    height: 300px;
+    width: 100%;
+    /* width: 60%; */
+    /* height: 80%; */
+    /* object-fit: cover; */
+}

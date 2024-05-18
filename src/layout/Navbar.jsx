@@ -20,8 +20,8 @@ function Navbar() {
                 <NavLink to="/contact">Contact</NavLink>
                 <NavLink to="/book">Book</NavLink>
             </div>
-            <div className={style.orderButtonRightContainer}>
-                <Link className={style.bookButton}>book now  <FaLongArrowAltRight className={style.arrow} /></Link> 
+            <div className="text-white bg-[rgb(39,32,32)] py-[12px] px-[17px] w-50 flex justify-center items-center gap-2">
+                <Link className={style.bookButton}>book now</Link> <FaLongArrowAltRight size={15} /> 
             </div>
 
         </div>

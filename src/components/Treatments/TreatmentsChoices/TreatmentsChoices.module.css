@@ -25,16 +25,17 @@
 .treatmentInfoRightContainer{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    /* border: 2px black solid; */
+    gap: 1rem;
+    /* border: 2px  solid; */
     width: 50%;
     background-color: rgb(185, 134, 112);
     padding: 0 2.5rem;
+    height: 100%;
    
 }
 
 .treatmentName{
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
     /* border-bottom: 2px solid; */
 }
 
@@ -43,22 +44,22 @@
 }
 
 .treatmentDescription{
-    margin-bottom: 4rem;
+    /* margin-bottom: 1rem; */
     /* border: 2px solid red; */
 }
 
 
-.bookButton {
+/* .bookButton {
     color: white;
     background-color: rgb(39, 32, 32);
     padding: 2rem 2.5rem;
-}
+} */
 
 
-.arrow{
+/* .arrow{
     font-size: 1.5rem;
     vertical-align: middle;
-    margin-left: .5rem;
-}
+    margin-left: rem;
+} */
 
 

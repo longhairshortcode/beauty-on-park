@@ -1,0 +1,35 @@
+.componentContainer{
+    height: calc(100vh - 14rem);
+    max-height: 575px;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+    width: 100%;
+}
+
+.imageContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-height: 500px;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+.aboutImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border: 2px solid black; */
+}
+
+.textOverlay{
+    position: absolute; /* Position the text absolutely within the container */
+    top: 50%; /* Adjust vertical position */
+    left: 50%; /* Adjust horizontal position */
+    transform: translate(-50%, -50%); /* Center the text horizontally and vertically */
+    color: white; /* Text color */
+    font-size: 7rem; /* Font size */
+    font-weight: bold; /* Font weight */
+    text-align: center; /* Text alignment */
+}

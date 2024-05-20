@@ -1,0 +1,17 @@
+
+.bothBiosContainer{
+    display: flex;
+    margin: 0 auto;
+    /* gap: 1rem; */
+    /* padding: var(--padding); */
+    max-width: var(--max-width);
+    /* border: 2px orange solid; */
+    height: 450px;
+    background-color:  rgb(185, 134, 112);
+}
+
+
+.loriContainer{
+    /* border: 2px purple solid; */
+    width: 50%;
+}

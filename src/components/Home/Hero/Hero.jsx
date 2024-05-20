@@ -7,7 +7,7 @@ function Hero() {
       <img className={style.homePic} src={homePic} alt="model with a a flower on head and big earrings"></img>
       <div className={style.missionContainer}>
         <p className={style.missionParagraph}>
-          Welcome to <span className={style.italic}>Beauty On Park</span>, a leading beauty salon dedicated to refined and relaxed beauty in the heart of Los Angeles by beauty expert Melissa Monroe.
+          Welcome to <span className={style.italic}>Beauty On Park</span>, a leading facial spa dedicated to refined and relaxed beauty in the heart of Los Angeles by beauty experts Natasha Mason and Lori Liao.
         </p>
       </div>
     </div>

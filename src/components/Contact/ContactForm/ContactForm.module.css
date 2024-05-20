@@ -1,0 +1,139 @@
+.componentContainer{
+    display: flex;
+    margin: 0 auto;
+    /* gap: 1rem; */
+    /* padding: var(--padding); */
+    max-width: var(--max-width);
+    /* border: 2px orange solid; */
+    height: 450px;
+    background-color:  rgb(185, 134, 112);
+}
+   
+   .containerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 400px;
+    padding-bottom: 20px;
+    max-width: 750px;
+    gap: 2rem;
+    background-color: (185, 134, 112)
+    /* border: 4px yellow dotted;     */
+   }
+   
+   
+    .containerOfBothForms{
+       display: flex;
+       padding: 0 2rem;
+       gap: 1.5rem;
+       background-color:  rgb(185, 134, 112);
+       /* border: 2px red solid;      */
+   } 
+   
+   .formLeft{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       background-color:  rgb(185, 134, 112);
+       width: 300px;
+       height: 109px;
+       gap: 2rem;
+       /* border: 2px dodgerblue solid; */
+       font-size: 15px;  
+   }
+   
+   .firstLastContainer{
+       display: flex;
+       gap: .7rem;
+       font-size: 15px;
+   }
+   
+   .formRight{    
+       display: flex;
+       flex-direction: column;
+       background-color:  rgb(185, 134, 112);
+       width: 300px;
+       gap: 1rem;
+       height: fit-content;
+       /* border: 4px darkslateblue solid;       */
+   }
+   
+   .firstName, .lastName, .practiceName, .emailAddress, .tel, .url, .selectPlan, .homeAddr, .comment{
+       width: 100%;
+       height: 1.9rem;
+       border-radius: .3rem;
+       background-color:  rgb(203, 200, 200);
+       padding-left: 8px;
+   }
+   
+   .selectPlan{
+       color: rgb(157, 154, 154);
+       font-size: 12px;;
+   
+   }
+   
+   
+   .comment{
+       /* is there an easier way to stretch this to top/bot? */
+       height: 7.8rem;
+       padding: 8px;
+       font-size: 20px;
+   }
+   
+   input::placeholder, textarea::placeholder{
+      color: black;
+   } 
+   
+   .submitBut{
+       border-radius: 5px;
+       padding: 7px;
+       /* margin-bottom: 25px; */
+       cursor: pointer;
+       color: black;
+       font-size: 12px;
+       background-color: silver;
+       /* border: 4px hotpink solid;   */
+   }
+   
+   .submitBut:active{
+       scale: .97;
+   }
+   
+   
+   @media screen and (max-width: 480px){
+   
+       .containerOfBothForms{
+           display: flex;
+           flex-direction: column;
+           padding: 0;       
+       }
+   
+       .formLeft, .formRight{
+           width: 100%;
+       }
+   
+       .containerOfBothForms{
+           width: 100%;
+           padding: 0 25px;
+       }
+   
+       .firstLastContainer{
+           display: flex;
+           flex-direction: column;
+           gap: .7rem;
+           background-color: #333;
+       }
+   
+   
+       .containerForm {
+           width: 100%;
+           min-height: calc(100vh - 89px);
+       }
+   
+       .container{
+           padding: 0px;
+       }
+   
+   
+   }

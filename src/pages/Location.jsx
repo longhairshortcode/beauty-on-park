@@ -7,7 +7,7 @@ function Location() {
   return (
     <div className={style.componentContainer}>
         <LocationHero/>       
-        <h1 className={style.salonTitle}><span className={style.italic}>Beauty On Park</span> Location</h1>
+        <h1 className={style.salonTitle}><span className={style.italic}>Beauty On Park</span></h1>
        
         <div className={style.infoAndMapContainer}>
           <div className={style.infoLeftContainer}>

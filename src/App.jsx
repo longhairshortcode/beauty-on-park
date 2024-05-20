@@ -6,7 +6,7 @@ import About from "./pages/About"
 import Treatments from "./pages/Treatments"
 import Location from "./pages/Location"
 import Contact from "./pages/Contact"
-import Book from "./pages/Book"
+// import Book from "./pages/Book"
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Route path={"/treatments"} element={<Treatments/>}/>
         <Route path={"/location"} element={<Location/>}/>
         <Route path={"/contact"} element={<Contact/>}/>
-        <Route path={"/book"} element={<Book/>}/>
+        {/* <Route path={"/book"} element={<Book/>}/> */}
       </Routes>
       <Footer/>
     </>
